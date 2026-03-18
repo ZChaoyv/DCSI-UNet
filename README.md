@@ -8,7 +8,7 @@ This repository contains the official implementation of **DCSI_UNet**, a novel a
 
 **DCSI_UNet: A Dual-Stream UNet With Parallel Channel–Spatial Interaction and Aggregation for Change Detection**  
 Authors: Chaoyv  
-Published in: IEEE Transactions on Geoscience and Remote Sensing (SCI, JCR Q1, CAS Region 1 (Top))
+Published in: IEEE Transactions on Geoscience and Remote Sensing (SCI, JCR Q1, CAS Region 1 (Top))  
 DOI: [10.1109/TGRS.2025.3643508](https://ieeexplore.ieee.org/document/11299285)  
 
 **Abstract:**  
@@ -205,7 +205,7 @@ If you use this code in your research, please cite our paper:
 
 **DCSI_UNet: A Dual-Stream UNet With Parallel Channel–Spatial Interaction and Aggregation for Change Detection**  
 作者：Chaoyv  
-发表期刊：IEEE 地球科学与遥感汇刊（SCI、JCR Q1、中科院 1 区（TOP 期刊））
+发表期刊：IEEE 地球科学与遥感汇刊（SCI、JCR Q1、中科院 1 区（TOP 期刊））  
 DOI: [10.1109/TGRS.2025.3643508](https://ieeexplore.ieee.org/document/11299285)  
 
 **摘要：**  
