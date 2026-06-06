@@ -11,18 +11,30 @@ Authors: Chaoyv
 Published in: IEEE Transactions on Geoscience and Remote Sensing (SCI, JCR Q1, CAS Region 1 (Top))  
 DOI: [10.1109/TGRS.2025.3643508](https://ieeexplore.ieee.org/document/11299285)  
 
-**Errata Note for Manuscript Data Corrections**
-Two transcription errors exist in the tabular data of this manuscript, and relevant corrections are listed below:
-Table II: WHU Dataset results of USSFC-Net
-The Precision value shall be revised to 89.72; raw experimental test metrics are provided as follows:
-Test Pre: (0.996814, 0.897199)Test Recall: (0.995757, 0.920850)Test Mean F1-Score: (0.996285, 0.908871)Test IoU: (0.992598, 0.832963)Test PO: 0.992862Test KC: 0.903955
-Table VIII: Configuration Loss 1:0:0
-The IoU value needs to be corrected to 83.22; original experimental test data are shown below:
-Acc: 0.99067, mIoU: 0.91120, mF1: 0.95174, mRecall: 0.95144, mPrecision: 0.95205IoU₀: 0.99022, IoU₁: 0.83218F1₀: 0.99509, F1₁: 0.90840Precision₀: 0.99505, Precision₁: 0.90904Recall₀: 0.99512, Recall₁: 0.90776KC: 0.90355
-We sincerely apologize for these mistakes. We intended to update these values during the final proofreading stage. However, as this is our first submission, we lacked sufficient experience and unfortunately overlooked the data revision before manuscript finalization.
-
 **Abstract:**  
 Change detection (CD) aims to analyze changes in objects between bitemporal images, playing a crucial role in geographical observations. However, hidden difference features and insufficient interfeature interaction both lead to suboptimal performance of methods. To address these challenges, this article proposes a dual-stream UNet with parallel channel–spatial interaction and aggregation (DCSI-UNet). First, the encoding part utilizes a multilayer dual-stream convolutional neural network (CNN) to extract multilayer features of bitemporal images and then processes them through a channel group interaction module (CGIM) and a spatial Gaussian attention module (SGAM) to generate channel and spatial interaction feature maps, respectively. Specifically, the CGIM splits the bitemporal feature maps into multiple channelwise subspaces and applies interactive attention to enhance cross-channel feature correlation. The SGAM calculates the mixed mean and joint variance at the spatial level of bitemporal feature maps, which establish a Gaussian attention kernel (GAK) capturing hidden difference features. Second, the decoding part is designed in two phases: skip connections and interaction-feature aggregation. The former decodes the interactive feature maps from CGIM and SGAM separately. The latter fuses multilayer channel and spatial interactive features from the encoding part, which suppresses localization loss and exploits richer semantic consistency of changed regions. Finally, comprehensive experiments on three public datasets demonstrate that the proposed method outperforms existing methods in both quantitative and qualitative evaluations. The code is available at https://github.com/ZChaoyv/DCSI-UNet. Usage: Please refer to the README.md file for instructions on environment setup, dataset preparation, training, and inference. If you find this work useful, please cite our paper.
+
+## 📝 Errata: Table Data Correction
+- **Apology Statement**: We sincerely apologize for these two transcription mistakes. We intended to fix these data during final proofreading. However, as this is our first manuscript submission, we lacked relevant experience and missed the correction before final publication.
+- **Table II (USSFC-Net on WHU Dataset)**: Revise Precision value to **89.72**.
+  ```
+  Test Pre: (0.996814,0.897199)
+  Test Recall: (0.995757,0.920850)
+  Test MeanF1Score: (0.996285,0.908871)
+  Test IoU: (0.992598,0.832963)
+  Test po: 0.992862
+  Test KC: 0.903955
+  ```
+
+- **Table VIII (Loss 1:0:0)**: Revise IoU value to **83.22**.
+  ```
+  acc: 0.99067 miou: 0.91120 mf1: 0.95174 mrecall: 0.95144 mprecision: 0.95205
+  iou_0: 0.99022 iou_1: 0.83218
+  F1_0: 0.99509 F1_1: 0.90840
+  precision_0: 0.99505 precision_1: 0.90904
+  recall_0: 0.99512 recall_1: 0.90776
+  kc: 0.90355
+  ```
 
 ## 🚀 Features
 
