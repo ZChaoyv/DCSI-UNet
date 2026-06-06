@@ -15,7 +15,7 @@ DOI: [10.1109/TGRS.2025.3643508](https://ieeexplore.ieee.org/document/11299285)
 Change detection (CD) aims to analyze changes in objects between bitemporal images, playing a crucial role in geographical observations. However, hidden difference features and insufficient interfeature interaction both lead to suboptimal performance of methods. To address these challenges, this article proposes a dual-stream UNet with parallel channel–spatial interaction and aggregation (DCSI-UNet). First, the encoding part utilizes a multilayer dual-stream convolutional neural network (CNN) to extract multilayer features of bitemporal images and then processes them through a channel group interaction module (CGIM) and a spatial Gaussian attention module (SGAM) to generate channel and spatial interaction feature maps, respectively. Specifically, the CGIM splits the bitemporal feature maps into multiple channelwise subspaces and applies interactive attention to enhance cross-channel feature correlation. The SGAM calculates the mixed mean and joint variance at the spatial level of bitemporal feature maps, which establish a Gaussian attention kernel (GAK) capturing hidden difference features. Second, the decoding part is designed in two phases: skip connections and interaction-feature aggregation. The former decodes the interactive feature maps from CGIM and SGAM separately. The latter fuses multilayer channel and spatial interactive features from the encoding part, which suppresses localization loss and exploits richer semantic consistency of changed regions. Finally, comprehensive experiments on three public datasets demonstrate that the proposed method outperforms existing methods in both quantitative and qualitative evaluations. The code is available at https://github.com/ZChaoyv/DCSI-UNet. Usage: Please refer to the README.md file for instructions on environment setup, dataset preparation, training, and inference. If you find this work useful, please cite our paper.
 
 ## 📝 Errata: Table Data Correction
-- **Apology Statement**: We sincerely apologize for these two transcription mistakes. We intended to fix these data during final proofreading. However, as this is our first manuscript submission, we lacked relevant experience and missed the correction before final publication.
+- **Apology Statement**: We sincerely apologize for these transcription mistakes. We intended to fix these data during final proofreading. However, as this is our first manuscript submission, we lacked relevant experience and missed the correction before final publication.
 - **Table II (USSFC-Net on WHU Dataset)**: Revise Precision value to **89.72**.
   ```
   Test Pre: (0.996814,0.897199)
@@ -236,7 +236,7 @@ DOI: [10.1109/TGRS.2025.3643508](https://ieeexplore.ieee.org/document/11299285)
 ## 📝 勘误：表格数据更正
 
 ### 道歉声明
-对于这两处转录错误，我们深表歉意。我们本打算在最终校对阶段修正这些数据。然而，由于这是我们首次投稿，缺乏相关经验，导致在最终发表前未能完成更正。
+对于转录错误，我们深表歉意。我们本打算在最终校对阶段修正这些数据。然而，由于这是我们首次投稿，缺乏相关经验，导致在最终发表前未能完成更正。
 
 - **表 II（USSFC-Net 在 WHU 数据集上）：将精度值修改为89.72**
   ```
