@@ -16,7 +16,7 @@ Change detection (CD) aims to analyze changes in objects between bitemporal imag
 
 ## 📝 Errata: Table Data Correction
 - **Apology Statement**: We sincerely apologize for these transcription mistakes. We intended to fix these data during final proofreading. However, as this is our first manuscript submission, we lacked relevant experience and missed the correction before final publication.
-- **Table II (USSFC-Net on WHU Dataset)**: Revise Precision value to **89.72**.
+- **Table II (USSFC-Net on WHU Dataset)**: Revise Precision value to **89.72** (Changed from 89.92 to 89.72).
   ```
   Test Pre: (0.996814,0.897199)
   Test Recall: (0.995757,0.920850)
@@ -26,7 +26,7 @@ Change detection (CD) aims to analyze changes in objects between bitemporal imag
   Test KC: 0.903955
   ```
 
-- **Table VIII (Loss 1:0:0)**: Revise IoU value to **83.22**.
+- **Table VIII (Loss 1:0:0)**: Revise IoU value to **83.22** (Changed from 93.22 to 83.22).
   ```
   acc: 0.99067 miou: 0.91120 mf1: 0.95174 mrecall: 0.95144 mprecision: 0.95205
   iou_0: 0.99022 iou_1: 0.83218
@@ -238,7 +238,7 @@ DOI: [10.1109/TGRS.2025.3643508](https://ieeexplore.ieee.org/document/11299285)
 ### 道歉声明
 对于转录错误，我们深表歉意。我们本打算在最终校对阶段修正这些数据。然而，由于这是我们首次投稿，缺乏相关经验，导致在最终发表前未能完成更正。
 
-- **表 II（USSFC-Net 在 WHU 数据集上）：将精度值修改为89.72**
+- **表 II（USSFC-Net 在 WHU 数据集上）：将精度值修改为89.72** (由 89.92 改为 89.72)
   ```
   Test Pre: (0.996814,0.897199)
   Test Recall: (0.995757,0.920850)
@@ -248,7 +248,7 @@ DOI: [10.1109/TGRS.2025.3643508](https://ieeexplore.ieee.org/document/11299285)
   Test KC: 0.903955
   ```
 
-- **表 VIII（损失 1:0:0）：将 IoU 值修改为83.22**
+- **表 VIII（损失 1:0:0）：将 IoU 值修改为83.22** (由 93.22 改为 83.22)
   ```
   acc: 0.99067 miou: 0.91120 mf1: 0.95174 mrecall: 0.95144 mprecision: 0.95205
   iou_0: 0.99022 iou_1: 0.83218
